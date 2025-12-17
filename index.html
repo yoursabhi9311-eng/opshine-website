@@ -17,7 +17,37 @@
   <h1>OP Shine</h1>
   <p>Quality Cleaning Products Manufacturer</p>
 </header>
+<div class="products">
+  <div class="product">
+    <h3>Detergent Powder</h3>
+    <p>High foam, powerful cleaning for clothes.</p>
+  </div>
 
+  <div class="product">
+    <h3>Liquid Detergent</h3>
+    <p>Gentle on fabric, tough on stains.</p>
+  </div>
+
+  <div class="product">
+    <h3>Dish Wash</h3>
+    <p>Removes grease easily, fresh fragrance.</p>
+  </div>
+
+  <div class="product">
+    <h3>Floor Cleaner</h3>
+    <p>Kills germs and leaves shine.</p>
+  </div>
+
+  <div class="product">
+    <h3>Toilet Cleaner</h3>
+    <p>Strong formula for deep cleaning.</p>
+  </div>
+
+  <div class="product">
+    <h3>Hand Wash</h3>
+    <p>Soft on skin with antibacterial protection.</p>
+  </div>
+</div>
 <section>
   <div class="box">
     <h2>About Us</h2>
@@ -29,14 +59,7 @@
 
   <div class="box">
     <h2>Our Products</h2>
-    <ul>
-      <li>Detergent Powder</li>
-      <li>Liquid Detergent</li>
-      <li>Dish Wash</li>
-      <li>Floor Cleaner</li>
-      <li>Toilet Cleaner</li>
-      <li>Hand Wash</li>
-    </ul>
+  
   </div>
 
   <div class="box">
@@ -70,6 +93,23 @@
 <footer>
   © 2025 OP Shine
 </footer>
-
+<style>
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.product {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.product h3 {
+  margin: 0 0 8px;
+  color: #2c3e50;
+}
+</style>
 </body>
 </html>
